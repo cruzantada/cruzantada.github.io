@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    padding-bottom: 10vh;
+}
+
+h1 {
+    font-size: 12vw;
+}
+
+h2 {
+    font-size: 10vw;
+    padding-top: 7.5vh;
+    padding-bottom: 5vh;
+}
+
+h3 {
+    font-size: 8vw;
+    padding-bottom: 2.5vh;
+}
+
+p {
+    font-size: 6vw;
+}
+
+a {
+    text-decoration: none;
+    font-size: 6vw;
+}
+
+img {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+#intro {
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+#projects h2 {
+    padding-bottom: 0vh;
+}
+
+#contact {
+    padding-bottom: 6vh;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar .menu-icon {
+    display: none;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+}
+
+.rightNav {
+    float: right;
+}
+
+.rightNav a {
+    padding: 0.5vh 2vw 0.5vh 2vw;
+}
+
+.leftNav a, .menu-icon {
+    padding: 0.5vh 1vw 0.5vh 1vw;
+}
+
+.headshot {
+    border-radius: 50%;
+    max-width: 50%;
+    height: auto;
+}
+
+.bio p {
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: left;
+}
+
+.project-list {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.project-list li {
+    display: flex;
+    padding-bottom: 75px;
+    text-align: left;
+}
+
+.project-list li:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.project-list li:last-child {
+    padding-bottom: 0vh;
+}
+
+.project-list li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.project-list p {
+    text-align: left;
+}
+
+.project-list li:nth-child(odd) div {
+    padding-left: 5%;
+}
+
+.project-list li:nth-child(even) div {
+    padding-right: 5%;
+}
+
+.project-list li div {
+    align-self: center;
+}
+
+.media-icons {
+    font-size: 4vw;
+}
+
+.media-icons a {
+    padding-left: 0.75vw;
+    padding-right: 0.75vw;
+}
+
+body {
+    background-color: white;
+}
+
+section:nth-child(odd), footer, .navbar {
+    background-color: gainsboro;
+}
+
+a:hover {
+    color: gainsboro;
+}
+
+h1, h2, p, .navbar a, .navbar a:hover, .email a, .media-icons a:hover {
+    color: black;
+}
+
+a, .rightNav a, .leftNav a:hover, .email a:hover {
+    color: green;
+}
+
+@media screen and (max-width: 768px) {
+    /* Responsive navigation menu */
+    .rightNav a {
+        display: none;
+    }
+    .navbar a.menu-icon {
+        float: right;
+        display: block;
+    }
+    .navbar.responsive {
+        position: fixed;
+        opacity: 0.85;
+    }
+    .navbar.responsive a.menu-icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    /* Responsive project list */
+    .project-list li {
+        display: block;
+        text-align: center !important;
+        border-width: 0;
+        margin: 50px 0;
+    }
+    .project-list li:nth-child(odd) div {
+        padding: 0;
+    }
+    .project-list li:nth-child(even) div {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    h1 {
+        font-size: 8vw;
+    }
+    h2 {
+        font-size: 6vw;
+    }
+    h3 {
+        font-size: 4vw;
+    }
+    p {
+        font-size: 2.5vw;
+    }
+    a {
+        font-size: 3vw;
+    }
+    .headshot {
+        max-width: 30%;
+    }
+    .bio p {
+        padding-right: 12.5%;
+        padding-left: 12.5%;
+    }
+    .project-list {
+        padding-right: 12.5%;
+        padding-left: 12.5%;
+    }
+    .project-list li img {
+        width: 60%;
+        height: 60%;
+    }
+    .media-icons {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #projects h2 {
+        padding-bottom: 2.5vh;
+    }
+    .project-list {
+        padding-right: 7%;
+        padding-left: 7%;
+    }
+    .project-list li img {
+        width: 55%;
+        height: 55%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #projects h2 {
+        padding-bottom: 5vh;
+    }
+    a {
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 4vw;
+    }
+    h2 {
+        font-size: 3vw;
+    }
+    h3 {
+        font-size: 2vw;
+    }
+    p {
+        font-size: 1.25vw;
+    }
+    a {
+        font-size: 1.25vw;
+    }
+    .headshot {
+        max-width: 20%;
+    }
+    .bio p {
+        padding-right: 25%;
+        padding-left: 25%;
+    }
+    .project-list {
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+    .media-icons {
+        font-size: 1vw;
+    }
+}

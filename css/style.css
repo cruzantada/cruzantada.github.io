@@ -41,10 +41,10 @@ img {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
-#intro {
-    margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 75px;
+header {
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 75px;
 }
 
 #projects h2 {
@@ -278,7 +278,7 @@ a, .rightNav a, .leftNav a:hover, .email a:hover {
         font-size: 1.25vw;
     }
     .headshot {
-        max-width: 20%;
+        max-width: 15%;
     }
     .bio p {
         padding-right: 25%;

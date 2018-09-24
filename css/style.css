@@ -97,3 +97,24 @@ section:nth-child(odd) {
 section:nth-child(odd) hr {
   border-color: #FFF;
 }
+
+/* Content */
+.bio {
+  margin: 0;
+  text-align: justify;
+}
+
+.col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-lg-8 {
+  margin: auto;
+}
+
+.divider-project {
+  border-color: #ECEBEF;
+  border-width: 1px;
+  margin: 4rem auto 5rem auto;
+  max-width: 250px;
+}
+
+.modal-content, .form-control {
+  border: 0px;
+}

@@ -73,3 +73,14 @@ header img {
 header .btn-social {
   color: #222223;
 }
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: #FFF;
+  padding: 3rem 0;
+}
+
+footer .btn-social {
+  color: #FFF;
+}

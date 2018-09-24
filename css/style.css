@@ -84,3 +84,16 @@ footer {
 footer .btn-social {
   color: #FFF;
 }
+
+/* Sections */
+section {
+  padding: calc(3rem + 56px) 0;
+}
+
+section:nth-child(odd) {
+  background-color: #ECEBEF;
+}
+
+section:nth-child(odd) hr {
+  border-color: #FFF;
+}

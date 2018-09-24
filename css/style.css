@@ -118,3 +118,36 @@ section:nth-child(odd) hr {
 .modal-content, .form-control {
   border: 0px;
 }
+
+/* Buttons */
+.btn-social {
+  padding: 0 0.5rem;
+}
+
+.btn-social:hover, .btn-social:focus, .btn-social:active {
+  color: #9589DF;
+}
+
+.btn-project {
+  background-color: #FFF;
+  border-color: #5546B3;
+  color: #5546B3;
+  margin-bottom: 1rem;
+}
+
+.btn-project:hover, .btn-project:focus, .btn-project:active {
+  background-color: #5546B3;
+  color: #FFF;
+}
+
+.btn-send {
+  background-color: #5546B3;
+  border-color: #5546B3;
+  color: #FFF;
+}
+
+.btn-send:hover, .btn-send:focus, .btn-send:active {
+  background-color: #9589DF;
+  border-color: #9589DF;
+  color: #222223;
+}

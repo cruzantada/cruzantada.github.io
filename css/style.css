@@ -36,3 +36,25 @@ img {
 ul {
   margin: 0;
 }
+
+/* Navigation */
+nav {
+  background-color: #000;
+}
+
+nav ul {
+  margin-left: auto;
+}
+
+nav a, nav button {
+  color: #FFF;
+}
+
+nav a:hover, nav a:focus, .navbar-brand, .nav-link.active {
+  color: #9589DF;
+}
+
+.navbar-toggler {
+  font-size: 80%;
+  padding: 0.5rem;
+}

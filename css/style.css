@@ -1,6 +1,6 @@
 body {
   background-color: #FFF;
-  color: #222223;
+  color: #16181A;
   font-family: 'Lato', sans-serif;
   margin: 0;
   position: relative;
@@ -39,7 +39,7 @@ ul {
 
 /* Navigation */
 nav {
-  background-color: #000;
+  background-color: #16181A;
 }
 
 nav ul {
@@ -50,7 +50,7 @@ nav a, nav button {
   color: #FFF;
 }
 
-nav a:hover, nav a:focus, .navbar-brand, .nav-link.active {
+nav a:hover, .navbar-brand, .nav-link.active {
   color: #9589DF;
 }
 
@@ -71,12 +71,12 @@ header img {
 }
 
 header .btn-social {
-  color: #222223;
+  color: #16181A;
 }
 
 /* Footer */
 footer {
-  background-color: #000;
+  background-color: #16181A;
   color: #FFF;
   padding: 3rem 0;
 }
@@ -124,7 +124,7 @@ section:nth-child(odd) hr {
   padding: 0 0.5rem;
 }
 
-.btn-social:hover, .btn-social:focus, .btn-social:active {
+.btn-social:hover, .btn-social:active {
   color: #9589DF;
 }
 
@@ -135,7 +135,7 @@ section:nth-child(odd) hr {
   margin-bottom: 1rem;
 }
 
-.btn-project:hover, .btn-project:focus, .btn-project:active {
+.btn-project:hover, .btn-project:active {
   background-color: #5546B3;
   color: #FFF;
 }
@@ -146,8 +146,8 @@ section:nth-child(odd) hr {
   color: #FFF;
 }
 
-.btn-send:hover, .btn-send:focus, .btn-send:active {
+.btn-send:hover, .btn-send:active {
   background-color: #9589DF;
   border-color: #9589DF;
-  color: #222223;
+  color: #16181A;
 }

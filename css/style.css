@@ -119,6 +119,11 @@ section:nth-child(odd) hr {
   border: 0px;
 }
 
+.form-control:focus {
+  -webkit-box-shadow: none;
+  border: 1px solid #9589DF;
+}
+
 /* Buttons */
 .btn-social {
   padding: 0 0.5rem;

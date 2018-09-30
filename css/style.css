@@ -115,6 +115,10 @@ section:nth-child(odd) hr {
   max-width: 250px;
 }
 
+.modal-backdrop.fade, .modal-backdrop.fade.in {
+  opacity: 0.95;
+}
+
 .modal-content, .form-control {
   border: 0px;
 }

@@ -147,12 +147,11 @@ section:nth-child(odd) hr {
 
 .btn-send {
   background-color: #5546B3;
-  border-color: #5546B3;
+  border: none;
   color: #FFF;
 }
 
 .btn-send:hover, .btn-send:focus, .btn-send:active {
   background-color: #9589DF;
-  border-color: #9589DF;
   color: #16181A;
 }

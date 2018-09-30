@@ -33,12 +33,14 @@
   <nav class="navbar navbar-expand-md fixed-top" id="top-nav">
     <div class="container">
       <a class="navbar-brand" href="#top">Anthony Cruz</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-responsive" aria-controls="navbar-responsive" aria-expanded="false" aria-label="Toggle navigation" onclick="this.blur();"><em class="fa fa-bars"></em></button>
-      <div class="collapse navbar-collapse" id="navbar-responsive">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-responsive" aria-controls="navbar-responsive" aria-expanded="false" aria-label="Toggle navigation" onclick="this.blur();">
+        <em class="fa fa-bars"></em>
+      </button>
+      <div class="collapse navbar-collapse" data-toggle="collapse" data-target=".navbar-collapse.show" id="navbar-responsive">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" onclick="this.blur();" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" onclick="this.blur();" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" onclick="this.blur();" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about" onclick="this.blur();">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects" onclick="this.blur();">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact" onclick="this.blur();">Contact</a></li>
         </ul>
       </div>
     </div>

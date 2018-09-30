@@ -128,6 +128,11 @@ section:nth-child(odd) hr {
   border: 0px;
 }
 
+.modal-body img {
+  margin: 0;
+  max-height: 80vh;
+}
+
 .form-control:focus {
   -webkit-box-shadow: none;
   border: 1px solid #9589DF;

@@ -119,6 +119,11 @@ section:nth-child(odd) hr {
   opacity: 0.95;
 }
 
+.modal-content {
+  padding: 0;
+  background-color: transparent;
+}
+
 .modal-content, .form-control {
   border: 0px;
 }

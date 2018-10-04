@@ -101,7 +101,7 @@ section:nth-child(odd) hr {
 /* Content */
 .bio {
   margin: 0;
-  text-align: justify;
+  text-align: left;
 }
 
 .col-md-5, .col-md-7, .col-md-9 {

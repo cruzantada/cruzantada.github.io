@@ -101,12 +101,28 @@
       <h2>Projects</h2>
       <hr>
       <div class="container">
-        <!-- Population Estimator -->
+        <!-- Pares -->
         <div class="row">
           <div class="col-md-5">
-            <img src="img/population_estimator.jpg" alt="Population Estimator Screenshot">
+            <img src="img/pares.png" alt="Pares Screenshot">
           </div>
           <div class="col-md-7">
+            <h3>Pares</h3>
+            <p>A 2D card matching game, written in C++ with OpenGL and the OpenGL Utility Toolkit, that tests the player’s memory and
+              Spanish vocabulary by requiring the player to match common English and Spanish words.</p>
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-light btn-project" data-toggle="modal" data-target="#pares-modal">Demo</button>
+              <a class="btn btn-sm btn-light btn-project" href="https://github.com/cruzantada/pares" target="_blank" rel="noopener" role="button">Github</a>
+            </div>
+          </div>
+        </div>
+        <hr class="divider-project">
+        <!-- Population Estimator -->
+        <div class="row">
+          <div class="col-md-5 order-md-2">
+            <img src="img/population_estimator.png" alt="Population Estimator Screenshot">
+          </div>
+          <div class="col-md-7 order-md-1">
             <h3>Population Estimator</h3>
             <p>A text-based user interface application written in Python that allows users to view, search,
               and export the U.S. Census Bureau’s Annual Estimates of the Resident Population for regions,
@@ -120,12 +136,12 @@
         <hr class="divider-project">
         <!-- Bullseye -->
         <div class="row">
-          <div class="col-md-5 order-md-2">
-            <img src="img/bullseye.jpg" alt="Bullseye Screenshot">
+          <div class="col-md-5">
+            <img src="img/bullseye.png" alt="Bullseye Screenshot">
           </div>
-          <div class="col-md-7 order-md-1">
+          <div class="col-md-7">
             <h3>Bullseye</h3>
-            <p>A 2D dart game written in C++ with OpenGL and the OpenGL Utility Toolkit that tests the player’s reaction time
+            <p>A 2D dart game, written in C++ with OpenGL and the OpenGL Utility Toolkit, that tests the player’s reaction time
               as the speed and difficulty of hitting the bullseye increases with each round.</p>
             <div class="btn-group">
               <button type="button" class="btn btn-sm btn-light btn-project" data-toggle="modal" data-target="#bullseye-modal">Demo</button>
@@ -133,20 +149,20 @@
             </div>
           </div>
         </div>
-        <hr class="divider-project">
-        <!-- BMI Calculator -->
-        <div class="row">
-          <div class="col-md-5">
-            <img src="img/bmi_calculator.jpg" alt="BMI Calculator Screenshot">
-          </div>
-          <div class="col-md-7">
-            <h3>BMI Calculator</h3>
-            <p>A console application written in C++ that calculates body mass index, assigns a weight category,
-              and provides the normal weight range based on the user’s height and weight.
-            </p>
-            <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-light btn-project" data-toggle="modal" data-target="#bmi-calculator-modal">Demo</button>
-              <a class="btn btn-sm btn-light btn-project" href="https://github.com/cruzantada/bmi-calculator" target="_blank" rel="noopener" role="button">Github</a>
+      </div>
+      <!-- Pares Modal -->
+      <div class="modal fade" id="pares-modal" tabindex="-1" role="dialog" aria-labelledby="pares-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+            <div class="container">
+              <button type="button" class="btn-modal" data-dismiss="modal" aria-label="Close" onclick="this.blur();">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <video autoplay loop muted>
+                <source src="video/pares.mp4" type="video/mp4">
+              </video>
             </div>
           </div>
         </div>
@@ -161,7 +177,9 @@
               </button>
             </div>
             <div class="modal-body">
-              <img src="img/population_estimator.apng" alt="Population Estimator Demo">
+              <video autoplay loop muted>
+                <source src="video/population_estimator.mp4" type="video/mp4">
+              </video>
             </div>
           </div>
         </div>
@@ -176,22 +194,9 @@
               </button>
             </div>
             <div class="modal-body">
-              <img src="img/bullseye.apng" alt="Bullseye Demo">
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- BMI Calculator Modal -->
-      <div class="modal fade" id="bmi-calculator-modal" tabindex="-1" role="dialog" aria-labelledby="bmi-calculator-modal-label" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-          <div class="modal-content">
-            <div class="container">
-              <button type="button" class="btn-modal" data-dismiss="modal" aria-label="Close" onclick="this.blur();">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <img src="img/bmi_calculator.apng" alt="BMI Calculator Demo">
+              <video autoplay loop muted>
+                <source src="video/bullseye.mp4" type="video/mp4">
+              </video>
             </div>
           </div>
         </div>

@@ -40,6 +40,7 @@ ul {
 /* Navigation */
 nav {
   background-color: #090809;
+  transition: top 0.3s;
 }
 
 nav ul {

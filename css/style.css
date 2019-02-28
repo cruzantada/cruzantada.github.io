@@ -51,7 +51,7 @@ nav a, nav button {
   color: #FFF;
 }
 
-nav a:hover, .navbar-brand, .nav-link.active {
+nav a:hover, .navbar-brand {
   color: #A195EE;
 }
 

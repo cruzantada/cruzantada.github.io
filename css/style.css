@@ -91,7 +91,7 @@ section {
 }
 
 section:nth-child(odd) {
-  background-color: #E9E9EF;
+  background-color: #EBEBF2;
 }
 
 section:nth-child(odd) hr {
@@ -108,7 +108,7 @@ section:nth-child(odd) hr {
 }
 
 .divider-project {
-  border-color: #E9E9EF;
+  border-color: #EBEBF2;
   border-width: 1px;
   margin: 4rem auto 5rem auto;
   max-width: 250px;

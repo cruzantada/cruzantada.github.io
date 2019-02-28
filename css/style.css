@@ -88,7 +88,7 @@ footer .btn-social {
 
 /* Sections */
 section {
-  padding: calc(3rem + 56px) 0;
+  padding: calc(1rem + 56px) 0;
 }
 
 section:nth-child(odd) {

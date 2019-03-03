@@ -26,7 +26,7 @@ hr {
   max-width: 50px;
 }
 
-img, video {
+img {
   border-radius: .25rem;
   height: auto;
   margin-bottom: 1rem;
@@ -129,7 +129,7 @@ section:nth-child(odd) hr {
   border: 0px;
 }
 
-.modal-body img, .modal-body video {
+.modal-body img {
   margin: 0;
   max-height: 80vh;
 }

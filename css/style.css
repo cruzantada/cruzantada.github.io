@@ -91,11 +91,11 @@ section {
   padding: 4rem 0;
 }
 
-section:nth-child(odd) {
+#about, #contact {
   background-color: #EBEBF2;
 }
 
-section:nth-child(odd) hr {
+#about hr, #contact hr {
   border-color: #FFF;
 }
 

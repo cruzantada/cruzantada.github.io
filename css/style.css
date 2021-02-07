@@ -21,6 +21,7 @@ h3 {
 }
 
 hr {
+  background-color: #A195EE;
   border: 2px solid #A195EE;
   margin: 1rem auto 2rem auto;
   max-width: 50px;

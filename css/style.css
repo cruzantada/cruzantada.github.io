@@ -97,6 +97,7 @@ section {
 }
 
 #about hr, #contact hr {
+  background-color: #FFF;
   border-color: #FFF;
 }
 

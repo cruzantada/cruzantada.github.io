@@ -93,7 +93,7 @@ section {
 }
 
 #about, #contact {
-  background-color: #EBEBF2;
+  background-color: #E5E5E5;
 }
 
 #about hr, #contact hr {
@@ -111,7 +111,7 @@ section {
 }
 
 .divider-project {
-  border-color: #EBEBF2;
+  border-color: #E5E5E5;
   border-width: 1px;
   margin: 4rem auto 5rem auto;
   max-width: 250px;
